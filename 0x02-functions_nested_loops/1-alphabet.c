@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main-main block
- * Description: A function that print_alphabet
+ * Description: A program that print_alphabet
  */
 void print_alphabet(void)
 {
@@ -9,5 +9,5 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
-	_putchar('\n');
+_putchar('\n');
 }
